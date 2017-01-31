@@ -1,0 +1,137 @@
+@font-face{
+	font-family: 'Heading';
+	src: url('regFont.woff');
+}
+
+@font-face{
+	font-family: 'Futura';
+	src: url('fut.woff');
+}
+
+@font-face{
+	font-family: 'Circular';
+	src: url('circular.woff');
+}
+
+@font-face{
+	font-family: 'Algeian';
+	src: url('alger.woff');
+}
+
+header{
+	font-family: 'Heading';
+	text-align: center;
+	font-size: 3em;
+	background: linear-gradient(violet, indigo, blue, green, yellow, orange, red);
+	background-clip: text;
+	color: transparent;
+}
+
+.credentials{
+	font-family: 'Algeian';
+	text-align: right;
+	margin-top: 5px;
+}
+
+.head{
+	font-family: 'Futura';
+	text-align: center;
+	font-size: 1.5em;
+	background: linear-gradient(#FF0000, #00FF00, #0000FF);
+	background-clip: text;
+	color: transparent;
+}
+
+.heading{
+	font-family: 'Algeian';
+	text-align: left;
+	font-size: 1.3em;
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.header{
+	font-family: 'Circular';
+	text-align: left;
+	font-size: 1.2em;
+	color: #0000FF;
+}
+
+.title{
+	display: inline;
+	font-weight: bold;
+	font-family: 'Circular';
+	font-size: 1.2em;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.myCourses{
+	clear: both;
+	display: block;
+	width: 100%;
+}
+
+.csRel{
+	float: left;
+	margin: 15px;
+	height: 150px;
+	overflow-x: hidden;
+	width: 30%;
+}
+
+.oth{
+	float: left;
+	margin: 15px;
+	height: 150px;
+	overflow-x: hidden;
+	width: 30%;
+
+}
+
+.onl{
+	float: left;
+	margin: 15px;
+	height: 150px;
+	overflow-x: hidden;
+	width: 30%;
+}
+
+.description{
+	display: inline;
+	font-family: 'Arial';
+}
+
+.organization{
+	display: inline;
+	font-family: 'Arial';
+	color: #0000FF;
+}
+
+.interests{
+	clear: both;
+}
+
+.projects{
+	clear: both;
+}
+
+.courseHead{
+	position: absolute;
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+.course_clearance{
+	height: 30px;
+}
+
+footer{
+	clear: both;
+	background-color: #E6E6E6;
+	display: block;
+	font-size: 1.5em;
+	margin-top: 50px;
+	padding: 2px;
+	text-align: center;
+}
