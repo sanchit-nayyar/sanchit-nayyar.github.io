@@ -1,49 +1,312 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-	<title>Sanchit Nayyar</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Sanchit nayyar (github.com/sanchit-nayyar)">
+	<title>Sanchit Nayyar</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+	<link href="carousel.css" rel="stylesheet">
 </head>
 <body>
-	<header>Sanchit Nayyar</header>
-	<div class="sub">
-		<a href="https://www.linkedin.com/in/sanchit-nayyar">LinkedIn</a> | 
-		<a href="https://www.github.com/sanchit-nayyar">GitHub</a>
-	</div>
-	<h1>Projects</h1>
-	<ol>
-		<li>Capstone Project</li>
-		Capstone project is an industry / research oriented project in the syllabus for TIET, Patiala. In a team of 4 members, we are working on a Remote Controlled prototype of an autonomous car. This car shall be able to navigate through the routes available in a map stored on the server, avoid obstacles and reach the destination with negligible intervention from the driver.<br>
-		<div class="rgt"><a href="https://github.com/capstone2020">GitHub Organization</a> for said Project</div>
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+			<a class="navbar-brand" href="#">Sanchit Nayyar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://drive.google.com/open?id=1n98jKD4YKDRW-Gz-oo6wwkSLygQp7Xw6">Résumé</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.github.com/sanchit-nayyar">GitHub</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://www.linkedin.com/in/sanchit-nayyar">LinkedIn</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main role="main">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+				<li data-target="#myCarousel" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="cloud.jpg">
+					<div class="container">
+						<div class="carousel-caption text-left">
+							<h1>Cloud Based Systems</h1>
+							<p>I don’t need a hard disk in my computer if I can get to the server faster… carrying around these non-connected computers is byzantine by comparison.</p>
+							<p class="text-right"> - Steve Jobs (Founder, Apple Inc)</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="fullstack.jpg">
+					<div class="container">
+						<div class="carousel-caption text-left">
+							<h1>Full Stack Web Development</h1>
+							<p>Great web design without functionality is like a sports car with no engine</p>
+							<p class="text-right"> - Anonymous</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="ml.png">
+					<div class="container">
+						<div class="carousel-caption text-left">
+							<h1>Machine Learning</h1>
+							<p>Just as electricity transformed almost everything 100 years ago, today I actually have a hard time thinking of an industry that I don’t think AI (Artificial Intelligence) will transform in the next several years</p>
+							<p class="text-right"> - Andrew Ng (Co-Founder, Coursera; Adjunct Professor, Computer Science, Stanford)</p>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="sec.jpg">
+					<div class="container">
+						<div class="carousel-caption text-left">
+							<h1>Information Security</h1>
+							<p>There are only two types of companies. Those who have been hacked, and those who will be</p>
+							<p class="text-right"> - Robert Muller (Director, FBI, 2012)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+		<div class="container marketing">
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="is.jpg">
+					<h2>Secure Servers</h2>
+					<p>It’s not magic, it’s talent and sweat. People like me ensure your packets get delivered unsniffed. So what do I do? I make sure that one bad config on one key component doesn’t bankrupt the entire company</p>
+				</div>
+				<div class="col-lg-4">
+					<img src="ai.jpg">
+					<h2>Artificial Intelligence</h2>
+					<p>Someday, a computer will give a wrong answer to spare someone's feelings, and man will have invented artificial intellegence</p>
+				</div>
+				<div class="col-lg-4">
+					<img src="team.jpg">
+					<h2>Team Co-ordination</h2>
+					<p>Teamwork is the ability to work together toward a common vision. The ability to direct individual accomplishments toward organizational objectives. It is the fuel that allows common people to attain uncommon results</p>
+				</div>
+			</div>
+			<hr class="featurette-divider" id="projects">
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">Capstone: Self Driving Car<span class="text-muted"> Under Development</span></h2>
+					<p class="lead">
+						A prototype of an autonomous car presented on a Remote Controlled car model and a self-fabricated track
+						<ul>
+							<li>Navigation</li>
+							<li>Obstacle Avoidance</li>
+							<li>Road Sign Detection</li>
+							<li>Real time transmission</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img src="project_images/capstone.jpg">
+				</div>
+			</div>
 
-		<li>Neural Network</li>
-		Implementation of a 3 Layer Neural Network done from scratch in Python. Trained and tested on the IRIS dataset. This code was my first attempt at understanding how the Machine Learning algorithms work. A descriptive code with standard based variable naming is available on GitHub.<br>
-		<div class="rgt"><a href="https://github.com/sanchit-nayyar/neural_network">GitHub Repository</a> for said Project</div>
+			<hr class="featurette-divider">
 
-		<li>Python Script for Sorting</li>
-		It happens more often than not that we end up with a cluttered downloads folder, with hundreds of unsorted files and it becomes very difficult to manage them. It also slows down the process of loading in this case. To tackle such issues, this script can be handy. In a more general form, it takes the input of the target folder and the extensions which need to be sorted (typically the ones which have numerous files). It puts all those files in folders matching their extension names.<br>
-		<div class="rgt"><a href="https://github.com/sanchit-nayyar/Downloads">GitHub Repository</a> for said Project</div>
+			<div class="row featurette">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading">Neural Network<span class="text-muted"> 3 Layer ANN</span></h2>
+					<p class="lead">Implementation of a 3 layer ANN from scratch in python
+						<ul>
+							<li>Trained and tested on the IRIS dataset</li>
+							<li>Accuracy of 81.6% obtained</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-5 order-md-1">
+					<img src="project_images/ann.png">
+				</div>
+			</div>
 
-		<li>Python Script for Naming</li>
-		Sometimes, the files in a particular directory are named in weird fashions. These cases include the times when we import photos from our smartphone, or put multiple downloaded files in the destination directory without following a naming convention. Managing these files can become a headache, and this script aims to resolve all such issues. It is capable of naming all files with a particular extension in the said directory in the form of &lt;prefix&gt;_&lt;i&gt;.&lt;ext&gt; which enables easy handling of files. The value of <i>i</i> in this convention varies from 1 to whatever the need is, and the other variable terms are input by the user.<br>
-		<div class="rgt"><a href="https://github.com/sanchit-nayyar/Rename-AllFiles">GitHub Repository</a> for said Project</div>
+			<hr class="featurette-divider">
 
-		<li>Python Script YouTube Downloader</li>
-		All the YouTube Downloaders available on the Internet as on date are able to fetch the video in the required quality and all other requirements, but the only issue is that they need the video URL. This YouTube Downloader is capable of carrying out a search on YouTube and downloading the first video that comes as a response to the said search query. Hence, saving time which is one of the major purposes of automation.<br>
-		Future prospects for this script include being able to fetch the video name and asking the user if this is the right video before executing the download process.
-		<div class="rgt"><a href="https://github.com/sanchit-nayyar/YouTube_Downloader">GitHub Repository</a> for said Project</div>
-	</ol>
-	<h1>Qualifications</h1>
-	<ol>
-		<li>Undergraduate: Thapar Institute of Engineering and Technology, Patiala <div class="rt">2016-Present (expected 2020)</div></li>
-		BE in Computer Engineering, batch of 2020. Current CGPA = 7.19
-		<li>Class 12: CBSE, New Delhi <div class="rt">2016</div></li>
-		Class 12, PCM with Computer Science, 2016. Score = 80.60%
-		<li>Class 10: CBSE, New Delhi <div class="rt">2014</div></li>
-		Class 10, 2014. CGPA = 8.2
-	</ol>
-</body>
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">WhatsApp Server <span class="text-muted">Automated WhatsApp Message Processing</span></h2>
+					<p class="lead">
+						Configure a multi-threaded server for listening and sending of messages via WhatsApp web
+						<ul>
+							<li>Deploys Selenium library of Python</li>
+							<li>Negligible delay in message processing due to deployment of multiple cores on the code</li>
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img src="project_images/whatsapp.jpg">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading">Makeathon <span class="text-muted">Hand Gesture based Assistant</span></h2>
+					<p class="lead">
+						An ASL based assistant for our speech impaired counterparts
+						<ul>
+							<li>Read instructions from camera</li>
+							<li>Send instructions to Linux System</li>
+							<li>1<sup>st</sup> prize in 36 hour Hackathon</li>
+					</p>
+				</div>
+				<div class="col-md-5 order-md-1">
+					<img src="project_images/mthn.png">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">PX Editor<span class="text-muted"> Autocomplete based Text Editor</span></h2>
+					<p class="lead">JavaScript and Django based text editor for web browsers
+						<ul>
+							<li>High Speed operation</li>
+							<li>Formatting Options</li>
+							<li>Word Autocomplete from Oxford Dictionary</li>
+							<li>Can be integrated on web service Admin Panels</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img src="project_images/px.png">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading">ThaparEats<span class="text-muted"> Food Portal</span></h2>
+					<p class="lead">A web based solution combining student orders to enable them bypass the minimum order barriers
+						<ul>
+							<li>Dynamic content</li>
+							<li>Development process followed all Software Development Guidelines</li>
+							<li>Uses campus server authentication at registration</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-5 order-md-1">
+					<img src="project_images/teats.png">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">Cryptic Hunt <span class="text-muted">Creative Computing Society</span></h2>
+					<p class="lead">
+						The panel for hosting flagship event of CCS, TIET
+						<ul>
+							<li>Capable of handling 100+ requests at every instant on a single threaded server</li>
+							<li>Brute Force safe</li>
+							<li>MITM safe</li>
+							<li>Supports real time updates</li>
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img src="project_images/cipher.png">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7 order-md-2">
+					<h2 class="featurette-heading">MyMP3 Box<span class="text-muted"> Web Based MP3 Player</span></h2>
+					<p class="lead">Web Based MP3 Player designed in Vanilla JS
+						<ul>
+							<li>Unbiased Shuffling</li>
+							<li>Cross Browser and Cross Platform</li>
+							<li>Playlist Functionality</li>
+							<li>Load local songs also</li>
+						</ul>
+					</p>
+				</div>
+				<div class="col-md-5 order-md-1">
+					<img src="project_images/mp.png">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<div class="row featurette">
+				<div class="col-md-7">
+					<h2 class="featurette-heading">OctaHacks <span class="text-muted">Student Portal</span></h2>
+					<p class="lead">
+						Faculty review system for use in colleges
+						<ul>
+							<li>Designed in Django</li>
+							<li>Safe from MITM, Brute Force, SQL Injection attacks</li>
+							<li>Sentiment Analysis equipped</li>
+							<li>Generate statistical graphs</li>
+					</p>
+				</div>
+				<div class="col-md-5">
+					<img src="project_images/oh.png">
+				</div>
+			</div>
+
+			<hr class="featurette-divider">
+
+			<!-- /END THE FEATURETTES -->
+
+		</div><!-- /.container -->
+
+
+		<!-- FOOTER -->
+		<footer class="container">
+			<p class="float-right"><a href="#">Back to top</a></p>
+			<p>Contact: snayyar1901.1999@gmail.com | +91-97817-08007</p>
+		</footer>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
 </html>
